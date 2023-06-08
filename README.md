@@ -1,4 +1,12 @@
 # Discord.js-report
+[![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+
+[npm-image]: https://img.shields.io/npm/v/get-package-readme.svg
+[npm-url]: https://npmjs.com/package/discord.js-report
+[downloads-image]: https://img.shields.io/npm/dm/get-package-readme.svg
+[downloads-url]: https://npmjs.com/package/discord.js-report
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
 
 **discord.js-report** is a Node.js package for Discord.js that allows users to easily create and send reports within their Discord bots. With ReportPackage, you can streamline the reporting process by providing a simple interface for users to report other users and specify a reason for the report.
 
