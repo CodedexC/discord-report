@@ -1,0 +1,27 @@
+{
+  "name": "discord.js-report",
+  "version": "1.0.3",
+  "description": "A Simple Discord Report NPM Package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodedexC/discord-report.git"
+  },
+  "keywords": [
+    "discord-report",
+    "discordjs",
+    "report"
+  ],
+  "author": "Codedex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodedexC/discord-report/issues"
+  },
+  "homepage": "https://github.com/CodedexC/discord-report#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
