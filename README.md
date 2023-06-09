@@ -21,15 +21,20 @@ npm i discord.js-report
 To use ReportPackage in your Discord bot, you'll need to require the package and configure the necessary settings. Here's an example:
 
 ```js
-const { setReportChannel, setReporter, setReported, setReason, execute } = require('discord.js-report');
+const { setMessageContent, setMessageEmbed, setReportChannel, setReporter, setReported, setReason, getReporter, getReported, getReason, execute } = require('discord.js-report');
 
 // Configure the report channel
 setReportChannel('your_report_channel_id');
 
 // Set the reporter, reported user, and reason
+setMessageContent()
+setMessageEmbed()
 setReporter(interaction.user);
 setReported(interaction.options.getUser('user'));
 setReason(interaction.options.getString('reason'));
+getReporter()
+getReported()
+getReason()
 
 // Execute the report command
 await execute(interaction, client);
