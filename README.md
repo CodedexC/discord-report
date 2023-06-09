@@ -26,15 +26,14 @@ const { setMessageContent, setMessageEmbed, setReportChannel, setReporter, setRe
 // Configure the report channel
 setReportChannel('your_report_channel_id');
 
-// Set the reporter, reported user, and reason
-setMessageContent()
-setMessageEmbed()
-setReporter(interaction.user);
-setReported(interaction.options.getUser('user'));
-setReason(interaction.options.getString('reason'));
-getReporter()
-getReported()
-getReason()
+setMessageContent() //Set a Message Content
+setMessageEmbed() //Set a MessageEmbed
+setReporter(interaction.user); //Set the User that Reported a User
+setReported(interaction.options.getUser('user')); //Set the User that got Reported
+setReason(interaction.options.getString('reason')); //Set the Reason String
+getReporter() //Get the User that Reported a User
+getReported() //Get the Reported User
+getReason() //Get the Reason
 
 // Execute the report command
 await execute(interaction, client);
